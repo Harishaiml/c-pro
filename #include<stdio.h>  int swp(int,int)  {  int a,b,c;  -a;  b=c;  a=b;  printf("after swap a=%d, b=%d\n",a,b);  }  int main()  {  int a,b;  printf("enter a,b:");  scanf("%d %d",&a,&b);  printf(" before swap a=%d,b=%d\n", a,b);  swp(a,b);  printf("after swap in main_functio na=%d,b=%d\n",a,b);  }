@@ -1,0 +1,35 @@
+#include<stdio.h>
+
+int swp(int,int)
+
+{
+
+int a,b,c;
+
+-a;
+
+b=c;
+
+a=b;
+
+printf("after swap a=%d, b=%d\n",a,b);
+
+}
+
+int main()
+
+{
+
+int a,b;
+
+printf("enter a,b:");
+
+scanf("%d %d",&a,&b);
+
+printf(" before swap a=%d,b=%d\n", a,b);
+
+swp(a,b);
+
+printf("after swap in main_functio na=%d,b=%d\n",a,b);
+
+}
